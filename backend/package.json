@@ -1,4 +1,11 @@
 {
+  "name": "cis3339-homework1-backend",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^18.0.10",
