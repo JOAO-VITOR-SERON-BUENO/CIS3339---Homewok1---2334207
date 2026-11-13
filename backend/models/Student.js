@@ -19,7 +19,7 @@ const studentSchema = new mongoose.Schema(
             type: String,
             required: [true, 'Phone number is required'],
             trim: true,
-            match: [/^[0-9()+\-.\s]{7,20}$/, 'Phone number may contain only digits, spaces, and ( ) + - .'],
+            match: [/^[0-9()+\-.\s]{7,20}$/, 'Phone number must be 7 to 20 characters using digits, spaces, or ( ) + - symbols'],
         },
         zip: {
             type: String,
