@@ -1,6 +1,7 @@
 <script setup>
 import { RouterView } from 'vue-router';
 import AppHeader from '@/components/AppHeader.vue';
+import ToastRegion from '@/components/ToastRegion.vue';
 </script>
 
 <template>
@@ -12,4 +13,5 @@ import AppHeader from '@/components/AppHeader.vue';
   <footer class="app-footer">
     <div class="container">CIS 3339 · Student Management System</div>
   </footer>
+  <ToastRegion />
 </template>
